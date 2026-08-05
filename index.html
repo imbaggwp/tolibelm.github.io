@@ -503,7 +503,7 @@ const userName = () => (TG_USER && TG_USER.first_name) || 'друг';
 const canEdit = () => isAdminUser() && !!db.settings.admin;
 
 function greet(){ const h = new Date().getHours();
-  return h < 5 ? 'Доброй ночи' : h < 12 ? 'Доброе утро' : h < 18 ? 'Добрый день' : 'Добрый вечер'; }
+  return h < 5 ? 'بسم الله الرحمن الرحيم' : h < 12 ? 'بسم الله الرحمن الرحيم' : h < 18 ? 'بسم الله الرحمن الرحيم' : 'بسم الله الرحمن الرحيم'; }
 function dateLine(){ const s = new Intl.DateTimeFormat('ru-RU',{weekday:'long',day:'numeric',month:'long'}).format(new Date());
   return s[0].toUpperCase() + s.slice(1); }
 const toggleArr = (key, id) => { const i = db[key].indexOf(id); i > -1 ? db[key].splice(i,1) : db[key].push(id); };
