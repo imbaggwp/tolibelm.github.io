@@ -1,0 +1,143 @@
+{
+ "sections": [
+  {
+   "id": "sec1",
+   "title": "Акыда",
+   "emoji": "📁",
+   "color": "#3A3F47",
+   "desc": "Вероубжеждение мусульманина",
+   "lessons": [
+    {
+     "id": "l1",
+     "title": "Знакомство с курсом",
+     "desc": "О чём этот путь и как заниматься.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+     "id": "l2",
+     "title": "Первые шаги",
+     "desc": "Практика: слушать, повторять, закреплять.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+     "id": "l3",
+     "title": "Главные термины",
+     "desc": "Словарь, без которого дальше будет сложно.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    },
+    {
+     "id": "l4",
+     "title": "Частые ошибки",
+     "desc": "Разбираем, что обычно идёт не так.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    }
+   ],
+   "subs": [
+    {
+     "id": "eqx3qang",
+     "title": "Условия Шахады",
+     "desc": "Условия Шахады",
+     "lessons": [],
+     "subs": [
+      {
+       "id": "vqxzdpuq",
+       "lessons": [],
+       "subs": [],
+       "title": "1-е издание",
+       "desc": ""
+      }
+     ]
+    },
+    {
+     "id": "zefv660i",
+     "lessons": [],
+     "subs": [],
+     "title": "Три Основы",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "sec2",
+   "title": "Манхадж",
+   "emoji": "📁",
+   "color": "#0E5A4A",
+   "desc": "Методология",
+   "lessons": [
+    {
+     "id": "l5",
+     "title": "Разминка",
+     "desc": "Короткая настройка перед занятием.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    },
+    {
+     "id": "l6",
+     "title": "Тренировка темпа",
+     "desc": "Учимся держать ритм.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    },
+    {
+     "id": "l7",
+     "title": "Закрепление",
+     "desc": "Итоговая практика раздела.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+    }
+   ],
+   "subs": []
+  },
+  {
+   "id": "sec3",
+   "title": "Фикх",
+   "emoji": "🚀",
+   "color": "#2B50C4",
+   "desc": "Правоведение",
+   "lessons": [
+    {
+     "id": "l8",
+     "title": "Продвинутые приёмы",
+     "desc": "Сложные кейсы и нюансы.",
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+    }
+   ],
+   "subs": [
+    {
+     "id": "vjjr6ueo",
+     "title": "Ййй",
+     "desc": "",
+     "lessons": [],
+     "subs": []
+    }
+   ]
+  },
+  {
+   "id": "pm99ymuh",
+   "lessons": [],
+   "subs": [],
+   "title": "Тафсир",
+   "emoji": "📚",
+   "desc": "Толкование Корана",
+   "color": "#D9971B"
+  }
+ ],
+ "books": [
+  {
+   "id": "b1",
+   "title": "Хрестоматия. Том 1",
+   "author": "Материалы курса",
+   "url": "https://sunnaportal.com/wp-content/uploads/2016/05/namaz.pdf",
+   "cover": "https://sunnaportal.com/wp-content/uploads/2021/05/namaz-1.jpg"
+  },
+  {
+   "id": "b2",
+   "title": "Практический сборник",
+   "author": "Материалы курса",
+   "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+  },
+  {
+   "id": "b3",
+   "title": "Конспект занятий",
+   "author": "Черновик",
+   "url": "https://pdfobject.com/pdf/sample.pdf"
+  }
+ ]
+}
