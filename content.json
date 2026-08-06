@@ -246,6 +246,8 @@
   "Не стесняйся спрашивать: вопрос — половина знания."
  ],
  "appName": "Требуй знания!",
+ "appIcon": "",
+ "appLogo": "https://raw.githubusercontent.com/imbaggwp/tolibelm.github.io/main/logo.png",
  "channel": "t.me/sharinsky",
  "question": "@sharinsky"
 }
