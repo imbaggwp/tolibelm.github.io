@@ -130,6 +130,13 @@
      "subs": [],
      "title": "Три Основы",
      "desc": ""
+    },
+    {
+     "id": "7uepvjuk",
+     "lessons": [],
+     "subs": [],
+     "title": "3",
+     "desc": ""
     }
    ]
   },
@@ -184,7 +191,15 @@
   {
    "id": "pm99ymuh",
    "lessons": [],
-   "subs": [],
+   "subs": [
+    {
+     "id": "8mcxj600",
+     "lessons": [],
+     "subs": [],
+     "title": "1",
+     "desc": ""
+    }
+   ],
    "title": "Тафсир",
    "emoji": "📚",
    "desc": "Толкование Корана",
