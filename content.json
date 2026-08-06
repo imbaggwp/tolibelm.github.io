@@ -21,7 +21,8 @@
          "id": "utelo8vm",
          "title": "Смысл свидетельства и его условия",
          "url": "https://www.dropbox.com/scl/fo/8u19svd4bsq4hj0aormxu/AJgOORm3oCMET5hPHlLbvcU/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/%D0%90%D1%83%D0%B4%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/1)%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8/1)%20%D0%90%D0%BA%D1%8B%D0%B4%D0%B0%20(%D0%B2%D0%B5%D1%80%D0%BE%D1%83%D0%B1%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)/%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0/1-%D0%B5%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%E2%80%93%20(5%20%D1%83%D1%80%D0%BE%D0%BA%D0%BE%D0%B2)?dl=1&preview=1+-+%D0%A1%D0%BC%D1%8B%D1%81%D0%BB+%D1%81%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0+%D0%B8+%D0%B5%D0%B3%D0%BE+%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F.mp3&rlkey=xwt7bgi1l1q7vlv63g9m622b6&subfolder_nav_tracking=1",
-         "desc": ""
+         "desc": "",
+         "dur": 391
         },
         {
          "id": "5n1irx06",
@@ -233,7 +234,7 @@
    "id": "b1",
    "title": "Как совершать намаз",
    "author": "Абдуль-Азиз ибн Баз",
-   "url": "https://sunnaportal.com/wp-content/uploads/2016/05/namaz.pdf",
+   "url": "https://imbaggwp.github.io/tolibelm.github.io/namaz.pdf",
    "cover": "https://sunnaportal.com/wp-content/uploads/2021/05/namaz-1.jpg"
   }
  ],
@@ -245,5 +246,6 @@
   "Знание — не то, что заучено, а то, что приносит пользу. — Имам аш-Шафии",
   "Лучший из вас тот, кто изучает Коран и обучает ему других. — Хадис (Бухари)",
   "Не стесняйся спрашивать: вопрос — половина знания."
- ]
+ ],
+ "appName": "Требуй знания!"
 }
