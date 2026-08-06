@@ -384,8 +384,8 @@ const CONTENT_URL = '';
 /* ===== ПРАВА АДМИНИСТРАТОРА =====
    Вставьте СВОЙ Telegram ID (узнать: бот @userinfobot → Start → "Id: 123456789").
    Только этот аккаунт видит «Режим автора», кнопки правок и публикацию. */
-const ADMIN_ID = 0;            // ← например: 123456789
-const ADMIN_USERNAME = '';     // ← запасной вариант: ваш @username без @
+const ADMIN_ID = 8690178977;            // ← например: 123456789
+const ADMIN_USERNAME = 'kakpopaloda';     // ← запасной вариант: ваш @username без @
 
 /* ============================================================ */
 const tg = window.Telegram && window.Telegram.WebApp || null;
@@ -624,7 +624,7 @@ function probeMissingDurations(){
   step(); }
 
 function greet(){ const h = new Date().getHours();
-  return h < 5 ? 'Доброй ночи' : h < 12 ? 'Доброе утро' : h < 18 ? 'Добрый день' : 'Добрый вечер'; }
+  return h < 5 ? 'بسم الله الرحمن الرحيم' : h < 12 ? 'بسم الله الرحمن الرحيم' : h < 18 ? 'بسم الله الرحمن الرحيم' : 'بسم الله الرحمن الرحيم'; }
 function dateLine(){ const s = new Intl.DateTimeFormat('ru-RU',{weekday:'long',day:'numeric',month:'long'}).format(new Date());
   return s[0].toUpperCase() + s.slice(1); }
 const toggleArr = (key, id) => { const i = db[key].indexOf(id); i > -1 ? db[key].splice(i,1) : db[key].push(id); };
