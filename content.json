@@ -3,7 +3,7 @@
   {
    "id": "sec1",
    "title": "Акыда",
-   "emoji": "📁",
+   "emoji": "🆕",
    "color": "#3A3F47",
    "desc": "Вероубжеждение мусульманина",
    "lessons": [],
@@ -28,13 +28,15 @@
          "id": "5n1irx06",
          "title": "Знание; Убеждённость; Принятие",
          "url": "https://www.dropbox.com/scl/fo/8u19svd4bsq4hj0aormxu/AJgOORm3oCMET5hPHlLbvcU/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/%D0%90%D1%83%D0%B4%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/1)%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8/1)%20%D0%90%D0%BA%D1%8B%D0%B4%D0%B0%20(%D0%B2%D0%B5%D1%80%D0%BE%D1%83%D0%B1%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)/%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0/1-%D0%B5%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%E2%80%93%20(5%20%D1%83%D1%80%D0%BE%D0%BA%D0%BE%D0%B2)?dl=1&preview=2+-+%D0%97%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5%3B+%D0%A3%D0%B1%D0%B5%D0%B6%D0%B4%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%3B+%D0%9F%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D0%B5.mp3&rlkey=xwt7bgi1l1q7vlv63g9m622b6&subfolder_nav_tracking=1",
-         "desc": ""
+         "desc": "",
+         "dur": 1679
         },
         {
          "id": "nrzonm0r",
          "title": "Подчинение",
          "url": "https://www.dropbox.com/scl/fo/8u19svd4bsq4hj0aormxu/AJgOORm3oCMET5hPHlLbvcU/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/%D0%90%D1%83%D0%B4%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/1)%20%D0%A3%D1%80%D0%BE%D0%BA%D0%B8/1)%20%D0%90%D0%BA%D1%8B%D0%B4%D0%B0%20(%D0%B2%D0%B5%D1%80%D0%BE%D1%83%D0%B1%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)/%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D1%8F%20%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0/1-%D0%B5%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%E2%80%93%20(5%20%D1%83%D1%80%D0%BE%D0%BA%D0%BE%D0%B2)?dl=1&preview=3+-+%D0%9F%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D0%B5+(%D0%BF%D1%80%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)%3B+%D0%9F%D0%BE%D0%B4%D1%87%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5.mp3&rlkey=xwt7bgi1l1q7vlv63g9m622b6&subfolder_nav_tracking=1",
-         "desc": ""
+         "desc": "",
+         "dur": 625
         },
         {
          "id": "g62xjq3j",
@@ -142,19 +144,22 @@
      "id": "l5",
      "title": "Разминка",
      "desc": "Короткая настройка перед занятием.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+     "dur": 354
     },
     {
      "id": "l6",
      "title": "Тренировка темпа",
      "desc": "Учимся держать ритм.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+     "dur": 280
     },
     {
      "id": "l7",
      "title": "Закрепление",
      "desc": "Итоговая практика раздела.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+     "dur": 421
     }
    ],
    "subs": []
@@ -170,7 +175,8 @@
      "id": "l8",
      "title": "Продвинутые приёмы",
      "desc": "Сложные кейсы и нюансы.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+     "dur": 325
     }
    ],
    "subs": [
@@ -247,5 +253,7 @@
   "Лучший из вас тот, кто изучает Коран и обучает ему других. — Хадис (Бухари)",
   "Не стесняйся спрашивать: вопрос — половина знания."
  ],
- "appName": "Требуй знания!"
+ "appName": "Требуй знания!",
+ "channel": "t.me/sharinsky",
+ "question": "@sharinsky"
 }
