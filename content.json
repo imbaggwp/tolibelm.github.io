@@ -3,7 +3,7 @@
   {
    "id": "sec1",
    "title": "Акыда",
-   "emoji": "🆕",
+   "emoji": "🤲",
    "color": "#3A3F47",
    "desc": "Вероубжеждение мусульманина",
    "lessons": [],
@@ -170,15 +170,7 @@
    "emoji": "🚀",
    "color": "#2B50C4",
    "desc": "Правоведение",
-   "lessons": [
-    {
-     "id": "l8",
-     "title": "Продвинутые приёмы",
-     "desc": "Сложные кейсы и нюансы.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
-     "dur": 325
-    }
-   ],
+   "lessons": [],
    "subs": [
     {
      "id": "vjjr6ueo",
