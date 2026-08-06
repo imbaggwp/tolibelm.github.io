@@ -242,15 +242,7 @@
    "color": "#EE4A18"
   }
  ],
- "books": [
-  {
-   "id": "b1",
-   "title": "Как совершать намаз",
-   "author": "Абдуль-Азиз ибн Баз",
-   "url": "https://sunnaportal.com/wp-content/uploads/2021/05/namaz-1.jpg",
-   "cover": "https://sunnaportal.com/wp-content/uploads/2021/05/namaz-1.jpg"
-  }
- ],
+ "books": [],
  "quotes": [
   "Требуй знания — поистине, стремление к знанию — обязанность каждого мусульманина. — Хадис (Ибн Маджа)",
   "Поистине, за трудностью приходит облегчение. — Коран, 94:6",
