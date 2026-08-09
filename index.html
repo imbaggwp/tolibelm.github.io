@@ -396,9 +396,9 @@ const APP_NAME = 'Требуй знания!';
 const VER = '1.26';
 const GITHUB_REPO = 'imbaggwp/tolibelm.github.io';
 const CONTENT_URL = '';
-const ADMIN_ID = 0;
-const ADMIN_USERNAME = '';
-const HOME_QUOTE = { text:'Поистине, эти знания – религия, так смотрите же, от кого вы берете свою религию', author:'Мухаммад ибн Сирин (رحمه الله)' };
+const ADMIN_ID = 8690178977;
+const ADMIN_USERNAME = 'kakpopaloda';
+const HOME_QUOTE = { text:'Поистине, эти знания – религия, так смотрите же, от кого вы берете свою религию!', author:'Мухаммад ибн Сирин (رحمه الله)' };
 
 const tg = window.Telegram && window.Telegram.WebApp || null;
 if (tg) { try { tg.ready(); tg.expand(); } catch(e){} }
@@ -681,7 +681,7 @@ function probeMissingDurations(){
   step(); }
 
 function greet(){ const h = new Date().getHours();
-  return h < 5 ? 'Доброй ночи' : h < 12 ? 'Доброе утро' : h < 18 ? 'Добрый день' : 'Добрый вечер'; }
+  return h < 5 ? 'بسم الله الرحمن الرحيم' : h < 12 ? 'بسم الله الرحمن الرحيم' : h < 18 ? 'بسم الله الرحمن الرحيم' : 'بسم الله الرحمن الرحيم'; }
 function dateLine(){ const s = new Intl.DateTimeFormat('ru-RU',{weekday:'long',day:'numeric',month:'long'}).format(new Date());
   return s[0].toUpperCase() + s.slice(1); }
 const toggleArr = (key, id) => { const i = db[key].indexOf(id); i > -1 ? db[key].splice(i,1) : db[key].push(id); };
@@ -1007,7 +1007,7 @@ function vOnboard(){
 function vHome(){
   const ch = db.settings.channel || '';
   let h = '<header class="hdr-c fade">' +
-    '<h1 class="ttl" style="font-size:25px">Ассаламу алейкум</h1>' +
+    '<h1 class="ttl" style="font-size:25px">بسم الله الرحمن الرحيم</h1>' +
     '<div class="kick" style="margin-top:6px;margin-bottom:0">' + esc(appName()) + '</div>' +
     '<button class="icbtn l" data-action="search" aria-label="Поиск">' + ic('search') + '</button>' +
     '<button class="icbtn" data-action="profile" aria-label="Профиль">' + ic('user') + '</button></header>';
