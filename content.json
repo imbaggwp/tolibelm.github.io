@@ -4,7 +4,7 @@
    "id": "sec1",
    "title": "Акыда",
    "emoji": "🤲",
-   "color": "#3A3F47",
+   "color": "#8A3FC0",
    "desc": "Вероубжеждение мусульманина",
    "lessons": [],
    "subs": [
@@ -214,13 +214,14 @@
      "title": "3",
      "desc": ""
     }
-   ]
+   ],
+   "icon": null
   },
   {
    "id": "sec2",
    "title": "Манхадж",
    "emoji": "📁",
-   "color": "#0E5A4A",
+   "color": "#3A3F47",
    "desc": "Методология",
    "lessons": [
     {
@@ -245,7 +246,8 @@
      "dur": 421
     }
    ],
-   "subs": []
+   "subs": [],
+   "icon": null
   },
   {
    "id": "sec3",
@@ -306,7 +308,8 @@
    "title": "Тарбия",
    "emoji": "📚",
    "desc": "Воспитательные уроки",
-   "color": "#3A3F47"
+   "color": "#0E5A4A",
+   "icon": null
   },
   {
    "id": "82ird4xm",
@@ -326,6 +329,14 @@
    "cat": "",
    "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
    "cover": "https://www.dropbox.com/scl/fi/bt089buledniwxdfqwn4d/namaz-Page-1.jpg?rlkey=m6s7qnget8j4xvhqrvkfe5ieg&st=w2hg8bxz&raw=1"
+  },
+  {
+   "id": "6lfpmm6z",
+   "title": "1",
+   "author": "",
+   "cat": "",
+   "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
+   "cover": ""
   }
  ],
  "quotes": [
@@ -341,5 +352,6 @@
  "appIcon": "",
  "appLogo": "https://raw.githubusercontent.com/imbaggwp/tolibelm.github.io/main/logo.png",
  "channel": "t.me/sharinsky",
- "question": "@sharinsky"
+ "question": "@sharinsky",
+ "support": "t.me/sharinsky"
 }
