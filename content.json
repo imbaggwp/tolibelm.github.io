@@ -3,8 +3,8 @@
   {
    "id": "sec1",
    "title": "Акыда",
-   "emoji": "🤲",
-   "color": "#8A3FC0",
+   "emoji": "",
+   "color": "#D9971B",
    "desc": "Вероубжеждение мусульманина",
    "lessons": [],
    "subs": [
@@ -215,13 +215,13 @@
      "desc": ""
     }
    ],
-   "icon": null
+   "icon": "aqidah"
   },
   {
    "id": "sec2",
    "title": "Манхадж",
    "emoji": "📁",
-   "color": "#3A3F47",
+   "color": "#2B50C4",
    "desc": "Методология",
    "lessons": [
     {
@@ -331,8 +331,16 @@
    "cover": "https://www.dropbox.com/scl/fi/bt089buledniwxdfqwn4d/namaz-Page-1.jpg?rlkey=m6s7qnget8j4xvhqrvkfe5ieg&st=w2hg8bxz&raw=1"
   },
   {
-   "id": "6lfpmm6z",
-   "title": "1",
+   "id": "vv0et5ys",
+   "title": "й",
+   "author": "",
+   "cat": "",
+   "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
+   "cover": ""
+  },
+  {
+   "id": "gocpe2oj",
+   "title": "йц",
    "author": "",
    "cat": "",
    "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
@@ -341,7 +349,7 @@
  ],
  "quotes": [
   "Требуй знания — поистине, стремление к знанию — обязанность каждого мусульманина. — Хадис (Ибн Маджа)",
-  "Поистине, за трудностью приходит облегчение. — Коран, 94:6",
+  "За каждой тягостью наступает облегчение. — Коран, 94:6",
   "Аллах возвышает степенями тех из вас, кто уверовал и кому даровано знание. — Коран, 58:11",
   "Кто встал на путь в поисках знания, тому Аллах облегчает путь в Рай. — Хадис (Муслим)",
   "Знание — не то, что заучено, а то, что приносит пользу. — Имам аш-Шафии",
