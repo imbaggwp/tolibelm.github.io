@@ -2527,6 +2527,27 @@ html[data-theme="auto"][data-dark="99"] .appearance-label span{
 .activity-week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
 .activity-week-labels{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:6px;color:var(--ink2);font-size:10px;text-align:center}
 @media(max-width:560px){.activity-year{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 10px}.activity-grid{gap:2px}.activity-week{gap:6px}.activity-week-labels{gap:6px}}
+
+/* v71: lock Continue Learning play button to the lower-right corner */
+.cont .cont-play{
+  position:absolute !important;
+  left:auto !important;
+  top:auto !important;
+  right:18px !important;
+  bottom:18px !important;
+  width:54px !important;
+  height:54px !important;
+  border-radius:50% !important;
+  margin:0 !important;
+}
+@media (max-width:520px){
+  .cont .cont-play{
+    right:16px !important;
+    bottom:16px !important;
+    width:52px !important;
+    height:52px !important;
+  }
+}
 </style>
 
 <style id="v36-book-card-alignment">
@@ -3922,7 +3943,120 @@ probeMissingDurations();
 }
 </style>
 
+
+<style id="v67-play-original-lower-right">
+/* V67 — кнопка Play: ниже и чуть правее */
+.ref-continue .ref-play,
+.ref-play{
+  right: 11px !important;
+  bottom: 9px !important;
+}
+@media(max-width:560px){
+  .ref-continue .ref-play,
+  .ref-play{
+    right: 8px !important;
+    bottom: 7px !important;
+  }
+}
+</style>
+
+
+<style id="v69-play-further-lower-right">
+/* V69 — кнопка Play: немного правее и ниже предыдущей позиции */
+.ref-continue .ref-play,
+.ref-play{
+  right: 12px !important;
+  bottom: 10px !important;
+}
+@media(max-width:560px){
+  .ref-continue .ref-play,
+  .ref-play{
+    right: 11px !important;
+    bottom: 9px !important;
+  }
+}
+</style>
+
 </body>
+
+<style id="v65-fix-home-continue-play-and-surface">
+/* V65 — финальная правка главной:
+   1) кнопка Play всегда по центру карточки по вертикали;
+   2) фон «Продолжить обучение» и «Быстрый доступ» = тот же Telegram-surface,
+      что у цитаты Ибн Сирина, с тем же тонким восьмиугольным узором. */
+
+/* Surface */
+.ref-continue,
+.ref-tile{
+  background-color:var(--tg-surface,#1B2733) !important;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'%3E%3Cg fill='none' stroke='%238A6A45' stroke-width='1.1' opacity='.75'%3E%3Crect x='45' y='45' width='60' height='60'/%3E%3Crect x='45' y='45' width='60' height='60' transform='rotate(45 75 75)'/%3E%3Cpath d='M75 0v30M75 120v30M0 75h30M120 75h30'/%3E%3Ccircle cx='75' cy='75' r='7'/%3E%3C/g%3E%3C/svg%3E") !important;
+  background-size:120px 120px !important;
+  background-repeat:repeat !important;
+  border-color:rgba(255,255,255,.055) !important;
+}
+
+/* Make the pattern subtle but actually visible */
+.ref-continue::before,
+.ref-tile::before{
+  opacity:.065 !important;
+}
+
+/* Play button: restore the original lower-right position. */
+.ref-continue .ref-play{
+  top:auto !important;
+  right:5px !important;
+  bottom:3px !important;
+  transform:none !important;
+  width:50px !important;
+  height:50px !important;
+  border-radius:50% !important;
+  display:grid !important;
+  place-items:center !important;
+  z-index:3 !important;
+}
+
+@media(max-width:560px){
+  .ref-continue .ref-play{
+    top:auto !important;
+    right:4px !important;
+    bottom:2px !important;
+    transform:none !important;
+    width:44px !important;
+    height:44px !important;
+  }
+}
+
+/* Keep the button stable while pressing it; only scale, without changing its anchor. */
+.ref-continue .ref-play:active{
+  transform:scale(.94) !important;
+}
+</style>
+
+<style id="v72-final-play-near-right-edge">
+/* V72 — кнопка Play в «Продолжить обучение»: почти у правого края.
+   Важно: V64 делал все дочерние элементы relative, поэтому здесь
+   принудительно возвращаем кнопке absolute-позиционирование. */
+.ref-continue .ref-play {
+  position: absolute !important;
+  top: auto !important;
+  right: 2px !important;
+  bottom: 3px !important;
+  transform: none !important;
+  z-index: 3 !important;
+}
+@media (max-width:560px) {
+  .ref-continue .ref-play {
+    position: absolute !important;
+    top: auto !important;
+    right: 1px !important;
+    bottom: 2px !important;
+  }
+}
+.ref-continue .ref-play:active {
+  transform: scale(.94) !important;
+}
+</style>
 </html>
 
 /* V37 — исправлено одиночное выделение дня в календаре прогресса */
@@ -4223,5 +4357,23 @@ body{
 .ref-tile > *{
   position:relative !important;
   z-index:1 !important;
+}
+</style>
+
+<style id="v70-final-continue-play-position">
+/* V73 — FINAL: only the Play button in "Продолжить обучение" is moved slightly right and down. */
+.ref-continue .ref-play {
+  top: auto !important;
+  right: 12px !important;
+  bottom: 10px !important;
+  transform: none !important;
+}
+@media (max-width:560px) {
+  .ref-continue .ref-play {
+    top: auto !important;
+    right: 11px !important;
+    bottom: 9px !important;
+    transform: none !important;
+  }
 }
 </style>
