@@ -203,7 +203,22 @@
     {
      "id": "zefv660i",
      "lessons": [],
-     "subs": [],
+     "subs": [
+      {
+       "id": "cvh4toe8",
+       "lessons": [
+        {
+         "id": "fuj6ng1u",
+         "title": "1355",
+         "url": "https://music.youtube.com/watch?v=38sHr0D5mr8&si=o2xMuuRGb7bRNu9x",
+         "desc": ""
+        }
+       ],
+       "subs": [],
+       "title": "1-ое издание",
+       "desc": ""
+      }
+     ],
      "title": "Три Основы",
      "desc": ""
     },
@@ -212,6 +227,13 @@
      "lessons": [],
      "subs": [],
      "title": "3",
+     "desc": ""
+    },
+    {
+     "id": "c1pnwuil",
+     "lessons": [],
+     "subs": [],
+     "title": "55",
      "desc": ""
     }
    ],
@@ -335,7 +357,7 @@
    "title": "й",
    "author": "",
    "cat": "",
-   "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
+   "url": "https://telegra.ph/Durusul-Muhimma-1-lekciya-11-17",
    "cover": ""
   },
   {
@@ -345,6 +367,15 @@
    "cat": "",
    "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
    "cover": ""
+  }
+ ],
+ "notes": [
+  {
+   "id": "maskx09r",
+   "title": "Акыда",
+   "text": "",
+   "ts": 1788341090771,
+   "updatedAt": 1788341090771
   }
  ],
  "quotes": [
@@ -359,7 +390,7 @@
  "appName": "Требуй знания!",
  "appIcon": "",
  "appLogo": "https://raw.githubusercontent.com/imbaggwp/tolibelm.github.io/main/logo.png",
- "channel": "t.me/sharinsky",
+ "channel": "t.me/TolibElm",
  "question": "@sharinsky",
- "support": "t.me/sharinsky"
+ "support": "t.me/TolibElm?direct"
 }
