@@ -55,7 +55,7 @@
        ],
        "subs": [],
        "title": "1-е издание",
-       "desc": ""
+       "desc": "Назратуллах Абу Марьям"
       },
       {
        "id": "f7uqaktd",
@@ -196,29 +196,14 @@
        ],
        "subs": [],
        "title": "3-е издание",
-       "desc": ""
+       "desc": "Назратуллах Абу Марьям"
       }
      ]
     },
     {
      "id": "zefv660i",
      "lessons": [],
-     "subs": [
-      {
-       "id": "cvh4toe8",
-       "lessons": [
-        {
-         "id": "fuj6ng1u",
-         "title": "1355",
-         "url": "https://music.youtube.com/watch?v=38sHr0D5mr8&si=o2xMuuRGb7bRNu9x",
-         "desc": ""
-        }
-       ],
-       "subs": [],
-       "title": "1-ое издание",
-       "desc": ""
-      }
-     ],
+     "subs": [],
      "title": "Три Основы",
      "desc": ""
     },
@@ -230,10 +215,17 @@
      "desc": ""
     },
     {
-     "id": "c1pnwuil",
+     "id": "xsim9z0s",
      "lessons": [],
      "subs": [],
-     "title": "55",
+     "title": "е",
+     "desc": ""
+    },
+    {
+     "id": "bwm2n7lj",
+     "lessons": [],
+     "subs": [],
+     "title": "new",
      "desc": ""
     }
    ],
@@ -357,7 +349,7 @@
    "title": "й",
    "author": "",
    "cat": "",
-   "url": "https://telegra.ph/Durusul-Muhimma-1-lekciya-11-17",
+   "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
    "cover": ""
   },
   {
@@ -367,15 +359,6 @@
    "cat": "",
    "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
    "cover": ""
-  }
- ],
- "notes": [
-  {
-   "id": "maskx09r",
-   "title": "Акыда",
-   "text": "",
-   "ts": 1788341090771,
-   "updatedAt": 1788341090771
   }
  ],
  "quotes": [
@@ -390,7 +373,7 @@
  "appName": "Требуй знания!",
  "appIcon": "",
  "appLogo": "https://raw.githubusercontent.com/imbaggwp/tolibelm.github.io/main/logo.png",
- "channel": "t.me/TolibElm",
+ "channel": "t.me/sharinsky",
  "question": "@sharinsky",
- "support": "t.me/TolibElm?direct"
+ "support": "t.me/sharinsky"
 }
