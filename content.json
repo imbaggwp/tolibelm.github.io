@@ -216,29 +216,7 @@
    "emoji": "📁",
    "color": "#2B50C4",
    "desc": "Методология",
-   "lessons": [
-    {
-     "id": "l5",
-     "title": "Разминка",
-     "desc": "Короткая настройка перед занятием.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
-     "dur": 354
-    },
-    {
-     "id": "l6",
-     "title": "Тренировка темпа",
-     "desc": "Учимся держать ритм.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-     "dur": 280
-    },
-    {
-     "id": "l7",
-     "title": "Закрепление",
-     "desc": "Итоговая практика раздела.",
-     "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
-     "dur": 421
-    }
-   ],
+   "lessons": [],
    "subs": [],
    "icon": null
   },
