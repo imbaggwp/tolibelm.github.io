@@ -206,27 +206,6 @@
      "subs": [],
      "title": "Три Основы",
      "desc": ""
-    },
-    {
-     "id": "7uepvjuk",
-     "lessons": [],
-     "subs": [],
-     "title": "3",
-     "desc": ""
-    },
-    {
-     "id": "xsim9z0s",
-     "lessons": [],
-     "subs": [],
-     "title": "е",
-     "desc": ""
-    },
-    {
-     "id": "bwm2n7lj",
-     "lessons": [],
-     "subs": [],
-     "title": "new",
-     "desc": ""
     }
    ],
    "icon": "aqidah"
@@ -270,28 +249,12 @@
    "color": "#2B50C4",
    "desc": "Правоведение",
    "lessons": [],
-   "subs": [
-    {
-     "id": "vjjr6ueo",
-     "title": "Ййй",
-     "desc": "",
-     "lessons": [],
-     "subs": []
-    }
-   ]
+   "subs": []
   },
   {
    "id": "pm99ymuh",
    "lessons": [],
-   "subs": [
-    {
-     "id": "8mcxj600",
-     "lessons": [],
-     "subs": [],
-     "title": "1",
-     "desc": ""
-    }
-   ],
+   "subs": [],
    "title": "Тафсир",
    "emoji": "📚",
    "desc": "Толкование Корана",
@@ -343,22 +306,6 @@
    "cat": "",
    "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
    "cover": "https://www.dropbox.com/scl/fi/bt089buledniwxdfqwn4d/namaz-Page-1.jpg?rlkey=m6s7qnget8j4xvhqrvkfe5ieg&st=w2hg8bxz&raw=1"
-  },
-  {
-   "id": "vv0et5ys",
-   "title": "й",
-   "author": "",
-   "cat": "",
-   "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
-   "cover": ""
-  },
-  {
-   "id": "gocpe2oj",
-   "title": "йц",
-   "author": "",
-   "cat": "",
-   "url": "https://dl.dropboxusercontent.com/scl/fi/i5xox8cw03nq4tebhqfpx/namaz.pdf?rlkey=mu4nemw1dty6zg1wsz5j3ke14&st=lm77v6v9&raw=1",
-   "cover": ""
   }
  ],
  "quotes": [
