@@ -1,19 +1,4 @@
-
-                        <!DOCTYPE html>
-                        <html lang="en">
-                        <head>
-                            <meta charset="UTF-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <style>
-                body {
-                  background-color: white; /* Ensure the iframe has a white background */
-                }
-
-                
-              </style>
-                        </head>
-                        <body>
-                            <!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 <meta charset="utf-8">
@@ -480,7 +465,7 @@ textarea.ex{width:100%;height:150px;background:var(--card2);border-radius:14px;b
 <div id="modal" hidden></div>
 <script>
 'use strict';
-const APP_NAME='Требуй знания!';const VER='1.53';
+const APP_NAME='Требуй знания!';const VER='1.54';
 const GITHUB_REPO='imbaggwp/tolibelm.github.io';
 const CONTENT_URL='';
 const WORKER_URL='https://tolibelmapp.asiya30092013.workers.dev';
@@ -517,10 +502,10 @@ const eqBars=()=>'<i></i><i></i><i></i><i></i>';
 const LS_OLD='miniapp_db_v1';
 const LS='ilm_db_v2_'+(TG_USER?TG_USER.id:'guest');
 const SWATCHES=['#EE4A18','#A44722','#2B50C4','#D9971B','#8A3FC0','#C22F4F','#3A3F47'];
-const EMOJI_PACKS=[{id:'study',name:' Учёба',list:['📚','','️','️','','','','','','','️','','','️','','️','💭','']},{id:'relig',name:'🕌 Вера',list:['🕌','','','⭐','','🤲','️','️','','','️','','⛰️','','','','','',]},{id:'face',name:'😊 Лица',list:['😊','😃','','🙂','','😍','','','','','😢','','😡','','','','','😅']},{id:'sym',name:'⭐ Символы',list:['⭐','✨','','','❤️','','💙','💜','','','','✅','','','','','','']},{id:'nat',name:' Природа',list:['','','','','','','️','️','','','🐫','','','','','','','','']}];
+const EMOJI_PACKS=[{id:'study',name:' Учёба',list:['📚','','️','✍️','','','','','','','️','','','️','','️','💭','']},{id:'relig',name:'🕌 Вера',list:['🕌','','','⭐','','🤲','️','️','','','️','','⛰️','','','','','',]},{id:'face',name:'😊 Лица',list:['😊','😃','','🙂','','😍','','','','','😢','','😡','','','','','😅']},{id:'sym',name:'⭐ Символы',list:['⭐','✨','⚡','','❤️','','💙','💜','','','','✅','','','','','','']},{id:'nat',name:' Природа',list:['','','','','','','️','️','','','🐫','','','','','','','','']}];
 const COVERS=[['#E8431C','#6E1D08'],['#A44722','#4A1D0F'],['#2B50C4','#131F55'],['#C22F4F','#4E0F1F'],['#8A3FC0','#35165A'],['#C98A12','#5C3D05']];
 const DEFAULT_QUOTES=['Требуй знания! — поистине, стремление к знанию — обязанность каждого мусульманина. — Хадис (Ибн Маджа)','Поистине, за трудностью приходит облегчение. — Коран, 94:6','Аллах возвышает степенями тех из вас, кто уверовал и кому даровано знание. — Коран, 58:11','Кто встал на путь в поисках знания, тому Аллах облегчает путь в Рай. — Хадис (Муслим)','Знание — не то, что заучено, а то, что приносит пользу. — Имам аш-Шафии','Лучший из вас тот, кто изучает Коран и обучает ему другим. — Хадис (Бухари)','Не стесняйся спрашивать: вопрос — половина знания.'];
-function seed(){const SH=n=>'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-'+n+'.mp3';return{v:1,settings:{onboarded:false,admin:false,theme:'dark',accent:'green',speed:1,skipStep:15,autoNext:true,appName:'',channel:'',question:'',support:'',myEmojis:[],appIcon:'',appLogo:'',secView:'list',reminderOn:false,reminderTime:'19:00',booksTab:'books'},sections:[{id:'sec1',title:'Основы',emoji:'',color:'#EE4A18',desc:'С чего начинается путь: базовые понятия и настройка на занятие.',lessons:[{id:'l1',title:'Знакомство с курсом',desc:'О чём этот путь и как заниматься.',url:SH(1)},{id:'l2',title:'Первые шаги',desc:'Практика: слушать, повторять, закреплять.',url:SH(2)},{id:'l3',title:'Главные термины',desc:'Словарь, без которого дальше будет сложно.',url:SH(3)},{id:'l4',title:'Частые ошибки',desc:'Разбираем, что обычно идёт не так.',url:SH(4)}],subs:[]},{id:'sec2',title:'Практика',emoji:'🎧',color:'#A44722',desc:'Уроки для отработки: слушайте и повторяйте.',lessons:[{id:'l5',title:'Разминка',desc:'Короткая настройка перед занятием.',url:SH(5)}],subs:[{id:'sub1',title:'Тренировка темпа',desc:'',lessons:[{id:'l6',title:'Тренировка темпа',desc:'Учимся держать ритм.',url:SH(6)}],subs:[{id:'sub1a',title:'Продвинутый темп',desc:'',lessons:[{id:'l7',title:'Закрепление',desc:'Итоговая практика раздела.',url:SH(7)}],subs:[]}]}]},{id:'sec3',title:'Углублённый уровень',emoji:'',color:'#2B50C4',desc:'Для тех, кто прошёл основу.',lessons:[{id:'l8',title:'Продвинутые приёмы',desc:'Сложные кейсы и нюансы.',url:SH(8)}],subs:[]}],books:[{id:'b1',title:'Хрестоматия. Том 1',author:'Материалы курса',cat:'',url:'https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf'},{id:'b2',title:'Практический сборник',author:'Материалы курса',cat:'',url:'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'},{id:'b3',title:'Конспект занятий',author:'Черновик',cat:'',url:'https://pdfobject.com/pdf/sample.pdf'}],audioNotes:{},quotes:DEFAULT_QUOTES.slice(),progress:{},favL:[],favB:[],readB:[],days:{},listenSec:0,last:null,pages:{},bookmarks:{}};}
+function seed(){const SH=n=>'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-'+n+'.mp3';return{v:1,settings:{onboarded:false,admin:false,theme:'dark',accent:'green',speed:1,skipStep:15,autoNext:true,appName:'',channel:'',question:'',support:'',myEmojis:[],appIcon:'',appLogo:'',secView:'list',reminderOn:false,reminderTime:'19:00',booksTab:'books'},sections:[{id:'sec1',title:'Основы',emoji:'',color:'#EE4A18',desc:'С чего начинается путь: базовые понятия и настройка на занятие.',lessons:[{id:'l1',title:'Знакомство с курсом',desc:'О чём этот путь и как заниматься.',url:SH(1)},{id:'l2',title:'Первые шаги',desc:'Практика: слушать, повторять, закреплять.',url:SH(2)},{id:'l3',title:'Главные термины',desc:'Словарь, без которого дальше будет сложно.',url:SH(3)},{id:'l4',title:'Частые ошибки',desc:'Разбираем, что обычно идёт не так.',url:SH(4)}],subs:[]},{id:'sec2',title:'Практика',emoji:'🎧',color:'#A44722',desc:'Уроки для отработки: слушайте и повторяйте.',lessons:[{id:'l5',title:'Разминка',desc:'Короткая настройка перед занятием.',url:SH(5)}],subs:[{id:'sub1',title:'Тренировка темпа',desc:'',lessons:[{id:'l6',title:'Тренировка темпа',desc:'Учимся держать ритм.',url:SH(6)}],subs:[{id:'sub1a',title:'Продвинутый темп',desc:'',lessons:[{id:'l7',title:'Закрепление',desc:'Итоговая практика раздела.',url:SH(7)}],subs:[]}]}]},{id:'sec3',title:'Углублённый уровень',emoji:'🚀',color:'#2B50C4',desc:'Для тех, кто прошёл основу.',lessons:[{id:'l8',title:'Продвинутые приёмы',desc:'Сложные кейсы и нюансы.',url:SH(8)}],subs:[]}],books:[{id:'b1',title:'Хрестоматия. Том 1',author:'Материалы курса',cat:'',url:'https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf'},{id:'b2',title:'Практический сборник',author:'Материалы курса',cat:'',url:'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'},{id:'b3',title:'Конспект занятий',author:'Черновик',cat:'',url:'https://pdfobject.com/pdf/sample.pdf'}],audioNotes:{},quotes:DEFAULT_QUOTES.slice(),progress:{},favL:[],favB:[],readB:[],days:{},listenSec:0,last:null,pages:{},bookmarks:{}};}
 let db;try{db=JSON.parse(localStorage.getItem(LS));}catch(e){}
 if((!db||db.v!==1)&&isAdminUser()){try{const old=JSON.parse(localStorage.getItem(LS_OLD));if(old&&old.v===1){db=old;localStorage.setItem(LS,JSON.stringify(old));}}catch(e){}}
 if(!db||db.v!==1)db=seed();
@@ -562,90 +547,85 @@ function lessonPathTitles(id){for(const s of db.sections){const r=walkChain(s,id
 function walkChain(node,id,acc){const hit=(node.lessons||[]).find(l=>l.id===id);if(hit)return acc.concat([hit.title]);for(const sb of(node.subs||[])){const r=walkChain(sb,id,acc.concat([sb.title]));if(r)return r;}return null;}
 function reportItem(type,id){let msg='';if(type==='lesson'){const f=findLesson(id);if(!f)return;const chain=lessonPathTitles(id)||[f.s.title,f.l.title];msg='Ассаляму Алейкум! Не открывается урок. Путь: '+chain.join(' → ')+'. ('+appName()+' v'+VER+')';}else{const b=db.books.find(x=>x.id===id);if(!b)return;const cat=(b.cat||'').trim();msg='Ассаляму Алейкум! Не открывается книга. Путь: Книги'+(cat?' → '+cat:'')+' → '+b.title+'. ('+appName()+' v'+VER+')';}sendReport(msg);}
 function sendSubscribe(on,time){if(!WORKER_URL||!TG_USER)return;fetch(WORKER_URL+'/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chat_id:TG_USER.id,time:time,on:!!on,tzOffset:new Date().getTimezoneOffset()})}).catch(()=>{});}
-function sendAnnounce(){if(!WORKER_URL||!TG_USER)return;fetch(WORKER_URL+'/announce',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chat_id:TG_USER.id,text:'🎉 Вышли новые уроки в «'+appName()+'»! Заходите заниматься '})}).catch(()=>{});}
-
+function sendAnnounce(){if(!WORKER_URL||!TG_USER)return;fetch(WORKER_URL+'/announce',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chat_id:TG_USER.id,text:' Вышли новые уроки в «'+appName()+'»! Заходите заниматься '})}).catch(()=>{});}
 /* ===== ОБЛАЧНАЯ СИНХРОНИЗАЦИЯ ===== */
 let cloudSaveTimer=null;
 let cloudSyncing=false;
 let cloudLastSaved=null;
-
 function cloudSaveDebounced(){
-  clearTimeout(cloudSaveTimer);
-  cloudSaveTimer=setTimeout(()=>cloudSaveNow(),2000);
+clearTimeout(cloudSaveTimer);
+cloudSaveTimer=setTimeout(()=>cloudSaveNow(),2000);
 }
-
 async function cloudSaveNow(){
-  if(!TG_USER||!WORKER_URL||cloudSyncing)return;
-  const currentHash=JSON.stringify({
-    progress:db.progress,
-    audioNotes:db.audioNotes,
-    favL:db.favL,
-    favB:db.favB,
-    readB:db.readB,
-    pages:db.pages,
-    bookmarks:db.bookmarks,
-    days:db.days,
-    listenSec:db.listenSec,
-    last:db.last,
-    notes:db.notes||[],
-    settings:db.settings
-  });
-  if(currentHash===cloudLastSaved)return;
-  cloudLastSaved=currentHash;
-  cloudSyncing=true;
-  try{
-    const res=await fetch(WORKER_URL+'/save-db',{
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({chat_id:TG_USER.id,db:{
-        progress:db.progress,
-        audioNotes:db.audioNotes,
-        favL:db.favL,
-        favB:db.favB,
-        readB:db.readB,
-        pages:db.pages,
-        bookmarks:db.bookmarks,
-        days:db.days,
-        listenSec:db.listenSec,
-        last:db.last,
-        notes:db.notes||[],
-        settings:db.settings,
-        syncedAt:Date.now()
-      }})
-    });
-    const j=await res.json().catch(()=>({}));
-    if(j.ok){console.log('☁️ Сохранено в облако:',j.size,'байт');}
-    else if(j.error==='too_large'){console.warn('⚠️ База слишком большая для облака:',j.size);}
-  }catch(e){console.error('Ошибка облачного сохранения:',e);}
-  finally{cloudSyncing=false;}
+if(!TG_USER||!WORKER_URL||cloudSyncing)return;
+const currentHash=JSON.stringify({
+progress:db.progress,
+audioNotes:db.audioNotes,
+favL:db.favL,
+favB:db.favB,
+readB:db.readB,
+pages:db.pages,
+bookmarks:db.bookmarks,
+days:db.days,
+listenSec:db.listenSec,
+last:db.last,
+notes:db.notes||[],
+settings:db.settings
+});
+if(currentHash===cloudLastSaved)return;
+cloudLastSaved=currentHash;
+cloudSyncing=true;
+try{
+const res=await fetch(WORKER_URL+'/save-db',{
+method:'POST',
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify({chat_id:TG_USER.id,db:{
+progress:db.progress,
+audioNotes:db.audioNotes,
+favL:db.favL,
+favB:db.favB,
+readB:db.readB,
+pages:db.pages,
+bookmarks:db.bookmarks,
+days:db.days,
+listenSec:db.listenSec,
+last:db.last,
+notes:db.notes||[],
+settings:db.settings,
+syncedAt:Date.now()
+}})
+});
+const j=await res.json().catch(()=>({}));
+if(j.ok){console.log('☁️ Сохранено в облако:',j.size,'байт');}
+else if(j.error==='too_large'){console.warn('️ База слишком большая для облака:',j.size);}
+}catch(e){console.error('Ошибка облачного сохранения:',e);}
+finally{cloudSyncing=false;}
 }
-
 async function cloudLoad(){
-  if(!TG_USER||!WORKER_URL)return false;
-  try{
-    const res=await fetch(WORKER_URL+'/load-db?chat_id='+TG_USER.id);
-    const j=await res.json().catch(()=>({}));
-    if(j.ok&&j.db){
-      if(j.db.progress)db.progress=j.db.progress;
-      if(j.db.audioNotes)db.audioNotes=j.db.audioNotes;
-      if(j.db.favL)db.favL=j.db.favL;
-      if(j.db.favB)db.favB=j.db.favB;
-      if(j.db.readB)db.readB=j.db.readB;
-      if(j.db.pages)db.pages=j.db.pages;
-      if(j.db.bookmarks)db.bookmarks=j.db.bookmarks;
-      if(j.db.days)db.days=j.db.days;
-      if(typeof j.db.listenSec==='number')db.listenSec=j.db.listenSec;
-      if(j.db.last)db.last=j.db.last;
-      if(j.db.notes)db.notes=j.db.notes;
-      if(j.db.settings)Object.assign(db.settings,j.db.settings);
-      save();
-      console.log('☁️ Загружено из облака, syncedAt:',j.db.syncedAt);
-      return true;
-    }
-  }catch(e){console.error('Ошибка загрузки из облака:',e);}
-  return false;
+if(!TG_USER||!WORKER_URL)return false;
+try{
+const res=await fetch(WORKER_URL+'/load-db?chat_id='+TG_USER.id);
+const j=await res.json().catch(()=>({}));
+if(j.ok&&j.db){
+if(j.db.progress)db.progress=j.db.progress;
+if(j.db.audioNotes)db.audioNotes=j.db.audioNotes;
+if(j.db.favL)db.favL=j.db.favL;
+if(j.db.favB)db.favB=j.db.favB;
+if(j.db.readB)db.readB=j.db.readB;
+if(j.db.pages)db.pages=j.db.pages;
+if(j.db.bookmarks)db.bookmarks=j.db.bookmarks;
+if(j.db.days)db.days=j.db.days;
+if(typeof j.db.listenSec==='number')db.listenSec=j.db.listenSec;
+if(j.db.last)db.last=j.db.last;
+if(j.db.notes)db.notes=j.db.notes;
+if(j.db.settings)Object.assign(db.settings,j.db.settings);
+save();
+console.log('☁️ Загружено из облака, syncedAt:',j.db.syncedAt);
+return true;
 }
-
+}catch(e){console.error('Ошибка загрузки из облака:',e);}
+return false;
+}
 const REMIND_TIMES=['06:00','07:00','08:00','09:00','12:00','15:00','18:00','19:00','20:00','21:00','22:00'];
 function remindModal(){const cur=db.settings.reminderTime||'19:00';let h='<div class="m-ttl">Время напоминания</div><div class="m-txt">По вашему местному времени.</div><div class="ep-grid" style="grid-template-columns:repeat(3,1fr)">';h+=REMIND_TIMES.map(t=>'<button data-action="remind-set" data-t="'+t+'" style="font-size:15px;font-weight:600;'+(t===cur?'outline:2px solid var(--acc);':'')+'">'+t+'</button>').join('');h+='</div>';modal(h);}
 function heatColor(lv){if(lv<=0)return'var(--card2)';return hexA('#F4511E',[0,0.25,0.5,0.78,1][lv]||1);}
@@ -704,7 +684,7 @@ function importBackupModal(){modal('<div class="m-ttl">Восстановить 
 function applyBackup(){try{const j=JSON.parse($('#bk-ta').value);if(!j||j.kind!=='ilm-backup')throw 0;if(j.progress)db.progress=j.progress;if(j.audioNotes)db.audioNotes=j.audioNotes;if(j.favL)db.favL=j.favL;if(j.favB)db.favB=j.favB;if(j.readB)db.readB=j.readB;if(j.pages)db.pages=j.pages;if(j.bookmarks)db.bookmarks=j.bookmarks;if(j.days)db.days=j.days;if(typeof j.listenSec==='number')db.listenSec=j.listenSec;if(j.last)db.last=j.last;save();closeModal();hap('success');toast('Прогресс восстановлен 🎉');rerender();}catch(e){toast('Неверный код резервной копии');}}
 let linkKind=null;
 function linkModal(kind){linkKind=kind;const cur=kind==='channel'?(db.settings.channel||''):(db.settings.question||'');const ttl=kind==='channel'?'Наш канал':'Задать вопрос';const txt=kind==='channel'?'Ссылка на ваш Telegram-канал. Ученики увидят кнопки в Профиле.':'Ссылка на чат или ваш username — куда ученикам писать вопросы.';const ph=kind==='channel'?'https://t.me/ваш_канал':'https://t.me/чат или @username';modal('<div class="m-ttl">'+ttl+'</div><p class="m-txt">'+txt+'</p><div class="fld"><label>Ссылка</label><input id="link-input" maxlength="120" placeholder="'+ph+'" value="'+esc(cur)+'"></div><div class="m-btns"><button class="btn pr" data-action="link-save">Сохранить</button></div>');}
-function supportModal(){modal('<div class="m-ttl">Ссылка поддержки</div><p class="m-txt">Сюду ученики отправляют сообщение «не открывается урок/книга». Укажите Telegram (t.me/…) или WhatsApp (wa.me/…). Для WhatsApp текст подставится автоматически.</p><div class="fld"><label>Ссылка</label><input id="support-input" maxlength="120" placeholder="https://t.me/ваш_ник" value="'+esc(db.settings.support||'')+'"></div><div class="m-btns"><button class="btn pr" data-action="support-save">Сохранить</button></div>');}
+function supportModal(){modal('<div class="m-ttl">Ссылка поддержки</div><p class="m-txt">Сюда ученики отправляют сообщение «не открывается урок/книга». Укажите Telegram (t.me/…) или WhatsApp (wa.me/…). Для WhatsApp текст подставится автоматически.</p><div class="fld"><label>Ссылка</label><input id="support-input" maxlength="120" placeholder="https://t.me/ваш_ник" value="'+esc(db.settings.support||'')+'"></div><div class="m-btns"><button class="btn pr" data-action="support-save">Сохранить</button></div>');}
 let emojiPack='study',emojiTarget='section';
 function emojiPickerModal(target){emojiTarget=target||'section';const packs=EMOJI_PACKS.concat([{id:'my',name:'❤️ Мои',list:(db.settings.myEmojis||[])}]);const cur=packs.find(p=>p.id===emojiPack)||packs[0];let h='<div class="m-ttl">Выбрать эмодзи</div><div class="fld"><label>Свой эмодзи</label><div style="display:flex;gap:8px"><input id="emoji-input" maxlength="16" placeholder="Вставьте любой эмодзи с клавиатуры"><button class="btn gh sm" data-action="emoji-add-my">'+ic('plus','ic-s')+'</button></div></div><div class="ep-tabs">'+packs.map(p=>'<button class="ep-tab'+(p.id===cur.id?' on':'')+'" data-action="emoji-pack" data-p="'+p.id+'">'+p.name+'</button>').join('')+'</div><div class="ep-grid">'+(cur.list.length?cur.list.map(e=>'<button data-action="emoji-pick" data-e="'+esc(e)+'">'+e+'</button>').join(''):'<div class="m-txt" style="margin:6px 0">Пак «Мои» пуст — вставьте эмодзи выше и нажмите «+».</div>')+'</div>';modal(h);}
 function iconPickerModal(){let h='<div class="m-ttl">SVG-иконка раздела</div><div class="ep-grid" style="grid-template-columns:repeat(5,1fr)">';SEC_ICONS.forEach(k=>{h+='<button data-action="icon-pick" data-k="'+k+'" style="display:grid;place-items:center;color:var(--ink)">'+ic(k,'ic-l')+'</button>';});h+='</div><div class="m-btns"><button class="btn gh" data-action="icon-clear">Без иконки (эмодзи)</button></div>';modal(h);}
@@ -1086,7 +1066,7 @@ allNotes.push({id:n.id,lessonId:lessonId,lessonTitle:f.l.title,sectionTitle:f.s.
 });
 }
 allNotes.sort((a,b)=>b.ts-a.ts);
-if(!allNotes.length)return h+emptyBox('Заметок пока нет','Добавляйте заметки во время прослушивания уроков — кнопка ✏️ в плеере.');
+if(!allNotes.length)return h+emptyBox('Заметок пока нет','Добавляйте заметки во время прослушивания уроков — кнопка ️ в плеере.');
 allNotes.forEach((n,i)=>{
 h+='<div class="fav-note-card card fade" style="animation-delay:'+(i*.03)+'s" data-action="fav-note-open" data-lesson="'+esc(n.lessonId)+'" data-note="'+esc(n.id)+'">';
 h+='<div class="fav-note-head">';
@@ -1185,6 +1165,7 @@ else if(kind==='lesson'){
 const found=id?findLesson(id):null;
 ex=found?found.l:null;
 if(found){sec=found.s.id;if(found.sub)sub=found.sub.id;}
+else{sub=extra||null;} // ← ИСПРАВЛЕНИЕ: используем extra для нового урока
 }
 else ex=id?db.books.find(b=>b.id===id):null;
 ED={kind,id,sec,sub,parent,color:(ex&&ex.color)||SWATCHES[db.sections.length%SWATCHES.length],emoji:(ex&&ex.emoji)||'📁',icon:(ex&&ex.icon)||null};
@@ -1234,7 +1215,7 @@ let h='<div class="m-ttl">Заметки к уроку</div>';
 h+='<div class="m-txt">'+esc(lesson.s.title)+' › '+esc(lesson.l.title)+'</div>';
 if(notes.length){
 h+='<div style="max-height:40vh;overflow-y:auto;margin-bottom:16px">';
-notes.forEach((n,i)=>{
+notes.forEach(n=>{
 const nid=n.id||uid();
 if(!n.id)n.id=nid;
 h+='<div class="audio-note-modal-item">';
@@ -1282,7 +1263,7 @@ case 'open-player':if(AE.cur&&stackTop().s!=='player')go('player',{id:AE.cur});b
 case 'open-pdf':go('reader',{id});break;
 case 'open-audio-note-editor':openAudioNoteEditor();break;
 case 'save-audio-note':saveAudioNote(el.dataset.lesson);break;
-case 'audio-note-jump':{const lessonId=el.dataset.id;const time=parseFloat(el.dataset.time);if(!lessonId||isNaN(time))break;const lesson=findLesson(lessonId);if(!lesson){toast('Урок не найден');break;}if(AE.cur!==lessonId){AE.load(lesson.l,true);}setTimeout(()=>{AE.seek(time/AE.a.duration);playerTick();},300);closeModal();break;}
+case 'audio-note-jump':{const lessonId=el.dataset.id;const time=parseFloat(el.dataset.time);if(!lessonId||isNaN(time))break;const lesson=findLesson(lessonId);if(!lesson){toast('Урок не найден');break;}if(AE.cur!==lessonId){AE.load(lesson.l,true);}setTimeout(()=>{if(AE.a.duration)AE.seek(time/AE.a.duration);playerTick();},300);closeModal();break;}
 case 'audio-note-delete':{const lessonId=el.dataset.id;const time=parseFloat(el.dataset.time);if(!lessonId||isNaN(time))break;db.audioNotes[lessonId]=(db.audioNotes[lessonId]||[]).filter(n=>n.timecode!==time);save();hap();toast('Заметка удалена');openAudioNoteEditor();break;}
 case 'open-ext':{const b=db.books.find(x=>x.id===id);if(!b)break;try{tg&&tg.openLink?tg.openLink(b.url):window.open(b.url,'_blank');}catch(err){window.open(b.url,'_blank');}break;}
 case 'open-link':openExternal(el.dataset.url);hap();break;
@@ -1375,6 +1356,9 @@ if(done>0)details+=(details?' · ':'')+done+' '+plural(done,'урок','урок
 if(!details)details='нет занятий';
 cap.innerHTML='<b>'+lbl+'</b> · '+details;
 }document.querySelectorAll('[data-action="heat-day"].on-day').forEach(x=>x.classList.remove('on-day'));el.classList.add('on-day');break;}
+case 'note-cancel':history.back();break;
+case 'note-save':saveCurrentNote();history.back();break;
+case 'note-delete':{const nid=id;if(nid){db.notes=(db.notes||[]).filter(n=>n.id!==nid);save();toast('Конспект удалён');history.back();}break;}
 }});
 async function maybeRemote(){if(isAdminUser())return;const url=CONTENT_URL||((location.protocol==='https:'||location.protocol==='http:')?'content.json':'');if(!url)return;try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)return;const j=await r.json();let changed=false;if(Array.isArray(j.sections)){db.sections=j.sections;changed=true;}if(Array.isArray(j.books)){db.books=j.books;changed=true;}if(Array.isArray(j.quotes)){db.quotes=j.quotes;changed=true;}if(typeof j.appName==='string'&&j.appName){db.settings.appName=j.appName;changed=true;}if(typeof j.appIcon==='string'){db.settings.appIcon=j.appIcon;changed=true;}if(typeof j.appLogo==='string'){db.settings.appLogo=j.appLogo;changed=true;}if(typeof j.channel==='string'){db.settings.channel=j.channel;changed=true;}if(typeof j.question==='string'){db.settings.question=j.question;changed=true;}if(typeof j.support==='string'){db.settings.support=j.support;changed=true;}if(changed){normalize();save();rerender();probeMissingDurations();}}catch(e){}}
 applyTheme();buildTabbar();
@@ -1384,29 +1368,15 @@ history.replaceState({d:1},'');
 renderTop(0);
 maybeRemote();
 probeMissingDurations();
-
 // 🆕 Загружаем данные из облака при первом запуске
 if(TG_USER&&db.settings.onboarded){
-  cloudLoad().then(loaded=>{
-    if(loaded){
-      rerender();
-      toast('☁️ Прогресс синхронизирован');
-    }
-  });
+cloudLoad().then(loaded=>{
+if(loaded){
+rerender();
+toast('☁️ Прогресс синхронизирован');
+}
+});
 }
 </script>
 </body>
 </html>
-
-
-              <script>
-                              function save(){
-  try{localStorage.setItem(LS,JSON.stringify(db));cloudSaveDebounced();}
-  catch(e){}
-}
-
-
-              </script>
-                        </body>
-                        </html>
-                    
